@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-custom-sans);
+  --font-mono: var(--font-custom-mono);
+  
+  --color-primary-50: #f1f4f8;
+  --color-primary-100: #d4dde6;
+  --color-primary-200: #b0bdcd;
+  --color-primary-300: #8a9bb3;
+  --color-primary-400: #647799;
+  --color-primary-500: #40567e;
+  --color-primary-600: #263b5c;
+  --color-primary-700: #172544;
+  --color-primary-800: #0c1630;
+  --color-primary-900: #021026;
+  --color-primary-950: #01172d;
+  --color-primary: #01172d;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --color-secondary-50: #fff5f5;
+  --color-secondary-100: #ffe3e3;
+  --color-secondary-200: #ffbdbd;
+  --color-secondary-300: #ff9b9b;
+  --color-secondary-400: #f86a6a;
+  --color-secondary-500: #ef4e4e;
+  --color-secondary-600: #e12d39;
+  --color-secondary-700: #cf1124;
+  --color-secondary-800: #ab091e;
+  --color-secondary-900: #8a041a;
+  --color-secondary-950: #610316;
+  --color-secondary: #ef4e4e;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
